@@ -7,4 +7,5 @@ Successivamente, ho sviluppato l’interfaccia utente utilizzando HTML, CSS (
 Durante lo sviluppo, ho testato ogni funzionalità per garantire che il sistema fosse robusto e facile da usare. Ho anche raccolto feedback da alcuni docenti per migliorare ulteriormente l’esperienza d’uso.
 
 CONCLUSIONI
+
 Questo progetto rappresenta il mio capolavoro perché unisce competenze tecniche e attenzione alle reali necessità degli utenti. Ho imparato a progettare e realizzare un’applicazione completa, dalla base dati all’interfaccia finale, affrontando e risolvendo problemi reali con soluzioni pratiche ed efficienti.
