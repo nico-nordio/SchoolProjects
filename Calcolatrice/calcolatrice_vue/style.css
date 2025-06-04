@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(247, 255, 226);
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: rgb(42, 41, 41);
+    padding: 20px;
+    border-radius: 20px;
+}
+.calculator input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    background-color: rgb(168, 236, 245);
+    border-radius: 15px;
+}
+.display input {
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+    color: black;
+}
+
+input.equal {
+    width: 140px;
+    background-color: rgb(255, 165, 0);
+}
+input.equal:hover {
+    background-color: rgb(214, 138, 0);/
+}
+
+input.operator {
+    background-color: rgb(255, 165, 0);
+}
+input.operator:hover {
+    background-color: rgb(214, 138, 0);
+}
+
+input.delete {
+    background-color: rgb(189, 188, 188);
+    color: black;
+}
+input.delete:hover {
+    background-color: rgb(140, 139, 139);
+}
+
+input.button {
+    background-color: rgb(86, 87, 89);
+}
+input.button:hover {
+    background-color: rgb(66, 67, 69);
+}

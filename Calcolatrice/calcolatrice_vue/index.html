@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3"></script>
+    <title>Calcolatrice_JS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Nicolò Nordio - Calcolatrice con Vue.js</h1>
+    </header>
+    <div id="app">
+        <div class="container">
+            <div class="calculator">
+                <div class="display">
+                    <input v-model="display" type="text" name="display" placeholder="0" readonly>
+                </div>
+                <div>
+                    <input @click="handleButtonClick('AC')" type="button" value="AC" class="delete">
+                    <input @click="handleButtonClick('DE')" type="button" value="DE" class="delete">
+                    <input @click="handleButtonClick('+/-')" type="button" value="+/-" class="delete">
+                    <input @click="handleButtonClick('/')" type="button" value="&divide;" class="operator">
+                </div>
+                <div>
+                    <input @click="handleButtonClick('7')" type="button" value="7" class="button">
+                    <input @click="handleButtonClick('8')" type="button" value="8" class="button">
+                    <input @click="handleButtonClick('9')" type="button" value="9" class="button">
+                    <input @click="handleButtonClick('x')" type="button" value="&times;" class="operator">
+                </div>
+                <div>
+                    <input @click="handleButtonClick('4')" type="button" value="4" class="button">
+                    <input @click="handleButtonClick('5')" type="button" value="5" class="button">
+                    <input @click="handleButtonClick('6')" type="button" value="6" class="button">
+                    <input @click="handleButtonClick('-')" type="button" value="&minus;" class="operator">
+                </div>
+                <div>
+                    <input @click="handleButtonClick('1')" type="button" value="1" class="button">
+                    <input @click="handleButtonClick('2')" type="button" value="2" class="button">
+                    <input @click="handleButtonClick('3')" type="button" value="3" class="button">
+                    <input @click="handleButtonClick('+')" type="button" value="&plus;" class="operator">
+                </div>
+                <div>
+                    <input @click="handleButtonClick('0')" type="button" value="0" class="button">
+                    <input @click="handleButtonClick('.')" type="button" value="." class="button">
+                    <input @click="handleButtonClick('=')" type="button" value="&equals;" class="equal">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
