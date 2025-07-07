@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>convertitore_valute</title>
+</head>
+
+<body>
+    <h1>Convertitore valute</h1>
+    <div id="container">
+        <div id="flex-box">
+            <div id="valuta-sx">
+                <div id="container-img">
+                    <img id="img-sx" src="">
+                </div>
+                
+                <select id="dropdown-sx">
+                    <option value="" selected hidden disabled>Seleziona</option>
+                </select>
+                <input id="v-inserita" type="number" placeholder="Inserire cifra">
+            </div>
+
+            <img src="assets/image.png" id="arrow-img">
+
+            <div id="valuta-dx">
+                <div id="container-img">
+                    <img id="img-dx" src="">
+                </div>
+                <select id="dropdown-dx">
+                    <option value="" selected hidden disabled>Seleziona</option>
+                </select>
+                <input id="v-convertita" type="text" placeholder="Cifra convertita" readonly>
+            </div>
+        </div>
+        <div id="conversione">
+            <button id="convertitore">Converti</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,58 @@
+{
+    "listaValute": [
+        {
+            "sigla": "EUR",
+            "nome": "Euro",
+            "tasso": 1,
+            "img": "assets/Bandiere/eu.jpg"
+        },
+        {
+            "sigla": "USD",
+            "nome": "Dollaro statunitense",
+            "tasso": 0.92831,
+            "img": "assets/Bandiere/um.jpg"
+        },
+        {
+            "sigla": "RUB",
+            "nome": "Rublo russo",
+            "tasso": 0.01,
+            "img": "assets/Bandiere/ru.jpg"
+        },
+        {
+            "sigla": "UAH",
+            "nome": "Grivnia ucraina",
+            "tasso": 0.023,
+            "img": "assets/Bandiere/ua.jpg"
+        },
+        {
+            "sigla": "TRY",
+            "nome": "Lira turca",
+            "tasso": 0.029,
+            "img": "assets/Bandiere/tr.jpg"
+        },
+        {
+            "sigla": "INR",
+            "nome": "Rupia indiana",
+            "tasso": 0.011,
+            "img": "assets/Bandiere/in.jpg"
+        },
+        {
+            "sigla": "MAD",
+            "nome": "Dirham marocchino",
+            "tasso": 0.093,
+            "img": "assets/Bandiere/ma.jpg"
+        },
+        {
+            "sigla": "RSD",
+            "nome": "Dinaro serbo",
+            "tasso": 0.0085,
+            "img": "assets/Bandiere/rs.jpg"
+        },
+        {
+            "sigla": "CNY",
+            "nome": "Yuan cinese",
+            "tasso": 0.13,
+            "img": "assets/Bandiere/cn.jpg"
+        }
+    ]
+}
